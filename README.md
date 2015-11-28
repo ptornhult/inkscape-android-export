@@ -6,13 +6,30 @@ This Inkscape extension exports all selected items in different densities. The e
 Install
 --------
 
-Download `android_export.inx` and `android_export.py` and copy both files to your `$HOME/.config/inkscape/extensions` folder. A restart of Inkscape is required.
+Download `android_export.inx` and `android_export.py` and copy both files to your `$HOME/.config/inkscape/extensions` (use $INCSCAPE_HOME\share\extensions on Windows) folder. A restart of Inkscape is required.
 
 Usage
 --------
 
 * Select at least one item to export
 * Select `Extensions -> Export -> Android Export…`
+* Customize the settings according to your needs
+
+inkscape-android-map-marker-export
+========
+
+This Inkscape extension exports all selected items in different densities. The exported PNGs will be named by their ID in the SVG.
+
+Install
+--------
+
+Download `android_map_marker_export.inx` and `android_map_marker_export.py` and copy both files to your `$HOME/.config/inkscape/extensions` (use $INCSCAPE_HOME\share\extensions on Windows) folder. A restart of Inkscape is required.
+
+Usage
+--------
+
+* Select at least one item to export
+* Select `Extensions -> Export -> Android Map Marker Export…`
 * Customize the settings according to your needs
 
 License
